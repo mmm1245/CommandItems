@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "commanditems",
+  "version": "${version}",
+  "name": "CommandItems",
+  "description": "",
+  "authors": [
+    "mmm1245"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/commanditems/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+      "com.github.mmm1245.commanditems.CommandItems"
+    ]
+  },
+  "mixins": [
+    "commanditems.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
